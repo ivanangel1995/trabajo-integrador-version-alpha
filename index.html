@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Página de NFT y Criptomonedas</title>
+  <link rel="stylesheet" href="./assets/styles.css" />
+  <link rel="stylesheet" href="./assets/mediaquery.css">
+  <link rel="stylesheet" href="./assets/animaciones.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+
+    <img src="./assets/logo.png" alt="Logo de Marketplace de NFT de Ivan" class="logo"/>
+
+    <nav class="navbar">
+
+      <label for="menu-toggle" class="menu-label">
+        <img src="./assets/menu.png" alt="menu" class="menu-icon">
+      </label>
+      <input type="checkbox" id="menu-toggle">
+
+      <ul class="navbar-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Descubre</a></li>
+        <li><a href="#">BTC</a></li>
+        <li><a href="#">Youtube</a></li>
+        <li><a href="#">Contactanos</a></li>
+        <li><a href="#">Acerca de Nosotros</a></li>
+      </ul>
+      <div id="ybarAccountProfile" class="_yb_15ve4 _yb_1cxyj  _yb_9m0ig   "> <a class="_yb_cv4rx" tabindex="" data-ylk="sec:ybar;slk:sign-in;elm:signin;subsec:settings;itc:0;tar:login.yahoo.com" data-redirect-params="pspid=[[pspid]]&amp;activity=ybar-signin" href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAlAmgQ&hl=es-419&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-687163491%3A1696903763830504&theme=glif" data-rapid_p="9" data-v9y="1">Iniciar sesión Con Google</a>  </div>
+    </div>
+      <label for="cart-toggle" class="cart-label">
+        <img src="./assets/images.png" alt="Carrito de compras" class="cart-icon">
+      </label>
+      <input type="checkbox" id="cart-toggle">
+
+      <!-- Nuestro carrito -->
+
+      <div class="cart">
+        <h2>Nuestros NFTs</h2>
+
+        <div class="cart-item">
+          <img src="./assets/Messi.png"alt="Nft del carrito" />
+
+          <div class="item-info">
+            <h3 class="item-title">El capo de los capos</h3>
+            <p class="item-bid">Current bid</p>
+            <span class="item-price">4.8 ETH</span>
+          </div>
+
+          <div class="item-handler">
+            <span class="quantity-handler down">-</span>
+            <span class="item-quantity">1</span>
+            <span class="quantity-handler up">+</span>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <img src="./assets/darth.png" alt="Nft del carrito" />
+
+          <div class="item-info">
+            <h3 class="item-title">Messi</h3>
+            <p class="item-bid">Current bid</p>
+            <span class="item-price">4.8 ETH</span>
+          </div>
+
+          <div class="item-handler">
+            <span class="quantity-handler down">-</span>
+            <span class="item-quantity">1</span>
+            <span class="quantity-handler up">+</span>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <img src="./assets/monito-con-rabia.png" alt="Nft del carrito" />
+
+          <div class="item-info">
+            <h3 class="item-title">El mono re duracel</h3>
+            <p class="item-bid">Current bid</p>
+            <span class="item-price">4.8 ETH</span>
+          </div>
+
+          <div class="item-handler">
+            <span class="quantity-handler down">-</span>
+            <span class="item-quantity">1</span>
+            <span class="quantity-handler up">+</span>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <img src="./assets/señor-pucho.png" alt="Nft del carrito" />
+
+          <div class="item-info">
+            <h3 class="item-title">El mono fumanchero</h3>
+            <p class="item-bid">Current bid</p>
+            <span class="item-price">4.8 ETH</span>
+          </div>
+
+          <div class="item-handler">
+            <span class="quantity-handler down">-</span>
+            <span class="item-quantity">1</span>
+            <span class="quantity-handler up">+</span>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <img src="./assets/OIP.png" alt="Nft del carrito" />
+
+          <div class="item-info">
+            <h3 class="item-title">Carita de chiflado</h3>
+            <p class="item-bid">Current bid</p>
+           
+           <span class="item-price">4.8 ETH</span>
+          </div>
+
+          <div class="item-handler">
+            <span class="quantity-handler down">-</span>
+            <span class="item-quantity">1</span>
+            <span class="quantity-handler up">+</span>
+          </div>
+        </div>
+
+        <span class="divider"></span>
+
+        <div class="cart-total">
+          <p>Total:</p>
+          <span>18.3 ETH</span>
+        </div>
+
+        <button class="btn-add">Comprar</button>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero">
+
+      <div class="hero-info">
+        <h1>
+          Bienvenido a la Revolución de NFT y Criptomonedas
+        </h1>
+
+        <p>
+          Las criptomonedas y los NFTs son dos de las innovaciones más emocionantes en el mundo digital y financiero. Las criptomonedas, como Bitcoin y Ethereum, han revolucionado la forma en que entendemos y utilizamos el dinero. Estas monedas digitales descentralizadas ofrecen seguridad y transparencia en las transacciones, y han abierto nuevas oportunidades de inversión y financiamiento.
+        </p>
+
+        <a href="#">Volvamonos Millonarios</a>
+      </div>
+
+      <div class="hero-card">
+        <img src="./assets/Messi.png" alt="Card example"/>
+
+        <div class="hero-card-info">
+          
+          <div class="hero-card-top">
+            <h3>"El mas capo de los capos de todos los tiempos "</h3>
+            <span>10</span>
+          </div>
+
+
+          <div class="hero-card-bottom">
+            
+            <div class="hero-card-creator">
+              <img src="./assets/img/hero/creator.png" alt="Imagen del creador" />
+              
+              <div class="creator-info">
+                <p>Creador</p>
+                <p>Carles Rexach</p>
+              </div>
+            </div>
+
+            <div class="hero-card-price">
+              <p>Value</p>
+              <span>9 ETH</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- INFO -->
+    <section id="info">
+
+      <section>
+        <h2>¿Qué son los NFT?</h2>
+        <p>Los NFT (Tokens No Fungibles) son activos digitales únicos que se utilizan para representar la propiedad de elementos digitales, como obras de arte, música, videos y otros activos digitales. Cada NFT tiene un valor único y se almacena en una cadena de bloques, lo que garantiza su autenticidad y propiedad.</p>
+    </section>
+    <section>
+        <h2>¿Por qué las Criptomonedas son Importantes?</h2>
+        <p>Las criptomonedas, como Bitcoin y Ethereum, han revolucionado la forma en que las personas almacenan y transfieren valor en línea. Utilizan tecnología de cadena de bloques para garantizar transacciones seguras y descentralizadas. Además, las criptomonedas han abierto nuevas oportunidades de inversión y han cambiado la forma en que vemos el dinero y los activos digitales.</p>
+    </section>
+
+
+      <div class="info-cards-container">
+        
+        <div class="info-card">
+          <img src="./assets/monito-con-rabia.png" alt="monito rabioso"/>
+          <h3>Configura tu wallet</h3>
+          <p>Una vez configurado la billetera de su eleccion, conectela a OpenSea.</p>
+        </div>
+
+        <div class="info-card">
+          <img src="./assets/señor-pucho.png" alt="fumanchu"/>
+          <h3>Configura tu wallet</h3>
+          <p>Una vez configurado la billetera de su eleccion, conectela a OpenSea.</p>
+        </div>
+
+        <div class="info-card">
+          <img src="./assets/OIP.png" alt="guiño de loquito"/>
+          <h3>Configura tu wallet</h3>
+          <p>Una vez configurado la billetera de su eleccion, conectela a OpenSea.</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- DISCOVER -->
+    <section id="discover">
+
+      <div class="discover-info">
+        <h2>Descubre una nueva era de colecciones</h2>
+
+        <div class="discover-text">
+          <p>
+            Tendras la oportunidad de coleccionar NFTs sobre distintos tópicos, y de este modo acceder a beneficios exclusivos por tomar parte de dicho club. Ej: "Team Star Wars"
+          </p>
+
+          <a href="#">Empezar ahora</a>
+        </div>
+      </div>
+
+      <div class="discover-cards">
+        <img src="./assets/darth.png" alt="Darth Vader">
+        <img src="./assets/trooper.png" alt="Trooper">
+        <img src="./assets/yoda.png" alt="Yoda Baby">
+      </div>
+
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products">
+
+      <h2>Hot NFTs</h2>
+
+      <div class="categories">
+        <button class="category active"><i class="fa-solid fa-gamepad" style="color: #ff0000;"></i>Videojuegos</button>
+        <button class="category"><i class="fa-brands fa-youtube" style="color: #ff0000;"></i>Youtube</button>
+        <button class="category"><i class="fa-solid fa-music" style="color: #ff0000;"></i>Música</button>
+        <button class="category"><i class="fa-solid fa-film" style="color: #ff0000;"></i>Películas</button>
+        <button class="category"><i class="fa-solid fa-taxi" style="color: #ff0000;"></i>Autos</button>
+        <button class="category"><i class="fa-solid fa-face-smile" style="color: #ff0000;"></i>Emoticons</button>
+      </div>
+
+      <div class="products-container">
+
+        <!-- Product -->
+        <div class="product">
+          <img src="./assets/toretto.png" alt="El pelado de las carreras" />
+
+          <div class="product-info">
+            <!--Info top-->
+            <div class="product-top">
+              <h3>Toretto</h3>
+              <p>Current Bid</p>
+            </div>
+  
+            <!--Info mid-->
+            <div class="product-mid">
+
+              <div class="product-user">
+                <img src="./assets/untipo.png" alt="El tipo que creo al pelado de las carreras" />
+                <p>@HardBena</p>
+              </div>
+
+              <span>7.33 ETH</span>
+            </div>
+
+            <!--Info bottom-->
+            <div class="product-bot">
+              <div class="offer-time">
+                <img src="./assets/fire.png" alt="Fire">
+                <p>03:34:07</p>
+              </div>
+
+              <button class="btn-add">Add</button>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Product -->
+        <div class="product">
+          <img src="./assets/toretto.png" alt="Toretto" />
+
+          <div class="product-info">
+            <!--Info top-->
+            <div class="product-top">
+              <h3>Toretto</h3>
+              <p>Current Bid</p>
+            </div>
+  
+            <!--Info mid-->
+            <div class="product-mid">
+
+              <div class="product-user">
+                <img src="./assets/untipo.png" alt="User" />
+                <p>@HardBena</p>
+              </div>
+
+              <span>7.33 ETH</span>
+            </div>
+
+            <!--Info bottom-->
+            <div class="product-bot">
+              <div class="offer-time">
+                <img src="./assets/fire.png" alt="Fire">
+                <p>03:34:07</p>
+              </div>
+
+              <button class="btn-add">Add</button>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Product -->
+        <div class="product">
+          <img src="./assets/toretto.png" alt="Toretto" />
+
+          <div class="product-info">
+            <!--Info top-->
+            <div class="product-top">
+              <h3>Toretto</h3>
+              <p>Current Bid</p>
+            </div>
+  
+            <!--Info mid-->
+            <div class="product-mid">
+
+              <div class="product-user">
+                <img src="./assets/untipo.png" alt="User" />
+                <p>@HardBena</p>
+              </div>
+
+              <span>7.33 ETH</span>
+            </div>
+
+            <!--Info bottom-->
+            <div class="product-bot">
+              <div class="offer-time">
+                <img src="./assets/fire.png" alt="Fire">
+                <p>03:34:07</p>
+              </div>
+
+              <button class="btn-add">Add</button>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Product -->
+        <div class="product">
+          <img src="./assets/toretto.png" alt="Toretto" />
+
+          <div class="product-info">
+            <!--Info top-->
+            <div class="product-top">
+              <h3>Toretto</h3>
+              <p>Current Bid</p>
+            </div>
+  
+            <!--Info mid-->
+            <div class="product-mid">
+
+              <div class="product-user">
+                <img src="./assets/untipo.png" alt="User" />
+                <p>@HardBena</p>
+              </div>
+
+              <span>7.33 ETH</span>
+            </div>
+
+            <!--Info bottom-->
+            <div class="product-bot">
+              <div class="offer-time">
+                <img src="./assets/fire.png" alt="Fire">
+                <p>03:34:07</p>
+              </div>
+
+              <button class="btn-add">Add</button>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Product -->
+        <div class="product">
+          <img src="./assets/toretto.png" alt="Toretto" />
+
+          <div class="product-info">
+            <!--Info top-->
+            <div class="product-top">
+              <h3>Toretto</h3>
+              <p>Current Bid</p>
+            </div>
+  
+            <!--Info mid-->
+            <div class="product-mid">
+
+              <div class="product-user">
+                <img src="./assets/untipo.png" alt="User" />
+                <p>@HardBena</p>
+              </div>
+
+              <span>7.33 ETH</span>
+            </div>
+
+            <!--Info bottom-->
+            <div class="product-bot">
+              <div class="offer-time">
+                <img src="./assets/fire.png" alt="Fire">
+                <p>03:34:07</p>
+              </div>
+
+              <button class="btn-add">Add</button>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Product -->
+        <div class="product">
+          <img src="./assets/toretto.png" alt="Toretto" />
+
+          <div class="product-info">
+            <!--Info top-->
+            <div class="product-top">
+              <h3>Toretto</h3>
+              <p>Current Bid</p>
+            </div>
+  
+            <!--Info mid-->
+            <div class="product-mid">
+
+              <div class="product-user">
+                <img src="./assets/untipo.png" alt="User" />
+                <p>@HardBena</p>
+              </div>
+
+              <span>7.33 ETH</span>
+            </div>
+
+            <!--Info bottom-->
+            <div class="product-bot">
+              <div class="offer-time">
+                <img src="./assets/fire.png" alt="Fire">
+                <p>03:34:07</p>
+              </div>
+
+              <button class="btn-add">Add</button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <button class="btn-load">Ver mas</button>
+    </section>
+
+  </main>
+
+  <footer>
+    <div>
+      <ul class="footer-links">
+        <li><a href="#">Terminos de uso</a></li>
+        <li><a href="#">Trabaja con nosotros</a></li>
+        <li><a href="#">Soporte</a></li>
+      </ul>
+    </div>
+
+    <p>Hecho con <i class="fa-solid fa-sack-dollar" style="color: #05f515;"></i> de los autores Para el Mercado de imagenes Ivanovich</p>
+  </footer>
+
+</body>
+
+</html>
